@@ -1,183 +1,173 @@
-body{
-    background-color: goldenrod;
-    width: 100%;
-    margin-bottom: 0px;
+body {
+  background-color: goldenrod;
+  width: 100%;
+  margin-bottom: 0px;
 }
-.header image{
-    width: 100%;
-    height: 80%;
-    float:left;
+.header image {
+  width: 100%;
+  height: 80%;
+  float: left;
 }
-.nav-bar{
-    height: 40px;
-     width:900px;
-     float: right;
-    margin: 60px 100px 0px 100px;
+.nav-bar {
+  height: 40px;
+  width: 900px;
+  float: right;
+  margin: 60px 100px 0px 100px;
 }
-.nav-bar a{
-    position: relative;
-    display: block;
-    color:brown;
-    font-size: 25px;
+.nav-bar a {
+  position: relative;
+  display: block;
+  color: brown;
+  font-size: 25px;
 }
-.link{
-    float: left;
-    padding-right: 80px;
-    
+.link {
+  float: left;
+  padding-right: 80px;
 }
- .logo{
-    border-radius: 90px;
-    width: 150px;
+.logo {
+  border-radius: 90px;
+  width: 150px;
 }
-.nav-bar a:hover{
-    
-    color: crimson
+.nav-bar a:hover {
+  color: crimson;
 }
-.footer > footer{
-    background-color: brown;
-    height:50px;
-    margin-top: 5%;
+.footer > footer {
+  background-color: brown;
+  height: 50px;
+  margin-top: 5%;
 }
-.footer p{
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    padding: 10px; 
-       
+.footer p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
 }
 
-/* contact style css */ 
-#form-div{
-    height: 800px;
-    display: flex;
-    direction: columns;
-    padding-left:100px;
-    padding-bottom: 1px;
-    }
-    .form-left{
-        height: 500px;
-        width: 400px;
-        margin-right:100px ;
-        padding: 50px;
+/* contact style css */
+#form-div {
+  height: 800px;
+  display: flex;
+  direction: columns;
+  padding-left: 100px;
+  padding-bottom: 1px;
+}
+.form-left {
+  height: 500px;
+  width: 400px;
+  margin-right: 100px;
+  padding: 50px;
+}
+.form1 {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 20px;
+  height: 400px;
+  width: 350px;
+}
 
-    }
-    .form1{
-        background-color: lightgray;
-        border-radius: 5px;
-        padding: 20px;
-        height: 400px;
-        width: 350px;
-    }
-
-    .form1 div{
-        margin: 30px;
-        width: 100px;
-        height: 25px;
-    }
-input, textarea{
-    font-size: 20px;
-    padding: 10px;
-    margin: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+.form1 div {
+  margin: 30px;
+  width: 100px;
+  height: 25px;
+}
+input,
+textarea {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 button {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 12px;
-    padding: 14px 2px;
-    margin: 40px 0;
-    width: 200px;
-    border-radius: 5px;
-    background-color: crimson;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 12px;
+  padding: 14px 2px;
+  margin: 40px 0;
+  width: 200px;
+  border-radius: 5px;
+  background-color: crimson;
 }
-div > h2{
-    color:brown;
-    font-size: 30px;
-    text-align: center;
+div > h2 {
+  color: brown;
+  font-size: 30px;
+  text-align: center;
 }
-h3 ~ p{
-    font-size: 20px;
+h3 ~ p {
+  font-size: 20px;
 }
 
 /* index style css */
-.head-one{
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: brown;
+.head-one {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: brown;
 }
 
-.class1{
-    width: 100%;
-    height: 100px;           
-    margin-bottom: 10px;
+.class1 {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
 }
-.about{
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    
+.about {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
 }
 
 p + h3 {
-    color:brown;
-    font-family: 'Times New Roman', Times, serif   ;
-    padding: 0px;
-    margin: 0px;
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0px;
+  margin: 0px;
 }
-.about div
-{
-    margin: 10px;
-    padding: 10px;
-    
+.about div {
+  margin: 10px;
+  padding: 10px;
 }
-.about-id{
-    flex: wrap;
+.about-id {
+  flex: wrap;
 }
 .float {
-    float: left;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 10px;
-    line-height: normal;
-    padding-bottom: 0px;
-    text-align: justify;
+  float: left;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 10px;
+  line-height: normal;
+  padding-bottom: 0px;
+  text-align: justify;
 }
-#fred{
-   height:46%;
-   float: left;
-  
-   
+#fred {
+  height: 46%;
+  float: left;
 }
-.class2{
-     width:20%; float: left;
-     height: 800px;
-     
+.class2 {
+  width: 20%;
+  float: left;
+  height: 800px;
 }
-#table{
-    text-align: left;
-    margin:10px;
-    padding: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-
+#table {
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
 }
-
 
 /* gallery style css */
 
-img{
-    height: 100%;
-    border-radius: 10px;
+img {
+  height: 100%;
+  border-radius: 10px;
 }
-
 
 .image-div {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 200px 200px 200px 200px 200px 200px;
-  grid-template-rows: 200px ; 
+  grid-template-rows: 200px;
   padding: 20px;
+  justify-content: center;
 }
 
 .image-div div {
@@ -185,45 +175,41 @@ img{
   font-size: 30px;
   text-align: center;
 }
-h3  {
-    text-align: left;
-    color: brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-style: italic;
-   
+h3 {
+  text-align: left;
+  color: brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
 }
 
 /* blog style css */
 
-.blog-div{
-    display: flex;
-    margin:10px;
+.blog-div {
+  display: flex;
+  margin: 10px;
 }
-.blog-div div{
-    margin: 5px;
-    padding: 20px;
+.blog-div div {
+  margin: 5px;
+  padding: 20px;
 }
-#blog-column{
-        flex-direction: column;
-        margin: 100px;
-       
+#blog-column {
+  flex-direction: column;
+  margin: 100px;
 }
 
-.facts{
-    flex-wrap: wrap;
-    border-radius: 20px;
-    border:1px solid crimson;
+.facts {
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border: 1px solid crimson;
 }
-#blog-img{
-    width: 20%;
-    padding-left:150px;
-   
+#blog-img {
+  width: 20%;
+  padding-left: 150px;
 }
 h1 {
-    text-align: left;
-    color: brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-
+  text-align: left;
+  color: brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
 }
