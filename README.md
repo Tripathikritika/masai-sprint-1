@@ -13,7 +13,7 @@ The First sprint project done after completing one month @Masai School.
 
 ## Screenshots
 
-<img src="./photos/ScreenShot.png" alt="Landing Page" />
+<img src="ScreenShot.png" alt="Landing Page" />
 
 ## Installation
 
